@@ -3,7 +3,7 @@
 The official exchange rates for CZK can be found at https://www.cnb.cz/cs/financni-trhy/devizovy-trh/kurzy-devizoveho-trhu/kurzy-devizoveho-trhu/rok_form.html
 This script scrapes the data for a custom time range, as long as the requested years are available (currently 1991 - 2023).
 
-The requirements are python 3+ (development version 3.9.6 should be guarant eed to work) and packages listed in requirements.txt 
+The requirements are python 3+ (development version 3.9.6 should be guaranteed to work) and packages listed in requirements.txt 
 (pandas, requests and dependencies).
 
 The script can be used as separate mini-module, which is why the __init__.py file is included. To import it, 
