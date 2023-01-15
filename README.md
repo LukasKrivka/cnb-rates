@@ -37,8 +37,9 @@ cd Desktop
 git clone https://github.com/LukasKrivka/CNB-rates
 ```
 
-* Finaly, run a prepared bash script.
+* Finally, run a prepared bash script.
 ```bash
+cd CNB-rates
 bash simple_run.sh
 ```
 This will handle everything else (python environment, packages, and execution).
