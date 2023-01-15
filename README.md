@@ -19,7 +19,8 @@ there is a prepared blackbox solution for MacOS/Linux.
 ```bash
 which git
 ```
-This should output something like: usr/bin/git.
+This should output something like: _usr/bin/git_. If so, proceed to the next step.
+
 If the output says _git not found_, **git** is not installed. Possible fix with **homebrew**:
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
@@ -28,7 +29,7 @@ followed by:
 ```bash
 brew install git
 ```
-The installaiton might take a minute. You will be prompted for your password.
+The installaiton of **homebrew** might take a minute. You will be prompted for your password.
 
 * Next, make a clone of this repository:
 This default solution will create a folder in your Desktop, where everything happens
@@ -44,7 +45,7 @@ bash simple_run.sh
 ```
 This will handle everything else (python environment, packages, and execution).
 The default option for this method is filled dataset - which means the missing dates (weekends etc.) are going to be filled with previous value.
-The exported csv should appear in the CNB-rates file. Then you can move it to your desired location and delete the rest of the file.
+The exported csv should appear on your Desktop. Then you can delete the CNB-rates cloned file to clean up.
 
 ### Final remarks:
 This script was developed mainly for my own needs. I am not necessarily planing on extending functionality (like sql connection) or maintaining support for subsequent dependencies releases. Noting in this script or reposiory is guaranteed.

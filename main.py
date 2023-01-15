@@ -1,4 +1,5 @@
 import sys
+import os
 import datetime
 
 from Rates import Rates
@@ -15,5 +16,7 @@ if __name__ == '__main__':
     # get the exchange rate fraction for Russian Rubl:
     # r.get_exrate_info(currency='RUB')
 
-    # export the entire dataset to current directory:
-    r.to_csv(filled=True)
+    # export the entire dataset to parent directory:
+    parent_dir = os.path.dirname(os.getcwd())
+    parent_dir = os.path.join(parent_dir, 'CNB-rates.csv')
+    r.to_csv(filled=True, path=parent_dir)
