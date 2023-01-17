@@ -13,7 +13,7 @@ The main.py file shows en example how it could be used to export the data to csv
 
 ## Black Box Solution
 For those that are not interested in the inner workings or even do not want to understand and simply need the output, 
-there is a prepared blackbox solution for MacOS/Linux.
+there is a prepared blackbox solution for MacOS/Linux. This might require installing developer-tools, xcode or similar.
 
 * In the Terminal application, verify that git is installed, by running:
 ```bash
@@ -53,11 +53,11 @@ The entire repository can be downloaded as zipfile by adding '/zipball/master/' 
 Then the automatic execution can be run with
 ```bash
 cd Downloads
-open LukasKrivka-CNB-rates-20fd4a3.zip
-cd LukasKrivka-CNB-rates-20fd4a3
+open LukasKrivka-CNB-rates-SUFFIX.zip
+cd LukasKrivka-CNB-rates-SUFFIX
 bash simple_run.sh
 ```
-The suffix of '-20fd4a3' in the file name may change - in that case you would need to adjust the commands accordingly.
+The SUFFIX in the file name will be unique - you need to change it to the name of your partucular.
 
 ## Final remarks:
 This script was developed mainly for my own needs. I am not necessarily planing on extending functionality (like sql connection)
