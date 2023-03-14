@@ -49,7 +49,7 @@ are going to be filled with previous value.
 The exported csv should appear on your Desktop. Then you can delete the CNB-rates cloned file to clean up.
 
 #### OR
-The entire repository can be downloaded as zipfile by adding '/zipball/master/' to the end of the github link.
+The entire repository can be downloaded as zipfile by adding '/zipball/master/' to the end of the github link in browser.
 Then the automatic execution can be run with
 ```bash
 cd Downloads
@@ -57,8 +57,8 @@ open LukasKrivka-CNB-rates-SUFFIX.zip
 cd LukasKrivka-CNB-rates-SUFFIX
 bash simple_run.sh
 ```
-The SUFFIX in the file name will be unique - you need to change it to the name of your partucular.
+The SUFFIX in the file name will be unique - you need to change it to the name of your particular file name.
 
 ## Final remarks:
-This script was developed mainly for my own needs. I am not necessarily planing on extending functionality (like sql connection)
+This script was developed mainly for my own needs. I am not necessarily planing on extending or updating functionality
 or maintaining support for subsequent dependencies releases. Noting in this script or reposiory is guaranteed.
