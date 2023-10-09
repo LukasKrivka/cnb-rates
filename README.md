@@ -22,12 +22,8 @@ export PYTHONPATH=$PYTHONPATH:/path/to/the/module
 The main.py file shows en example how it could be used to export the data to csv file
 
 ## Black Box Solution
-For those that are not interested in the inner workings or even do not want to understand and simply need the output, 
-<<<<<<< HEAD
-there is a prepared blackbox solution for MacOS/Linux. This might require installing developer-tools, xcode or similar.
-=======
-there is a prepared blackbox solution for macOS.
->>>>>>> f34bf59 (change project structure, fix warnings and typos, update README, add automatic year detection)
+For those that are not interested in the inner workings or even do not want to understand and simply need the output,
+there is a prepared blackbox solution for macOS. This might require installing developer-tools, xcode or similar.
 
 * In the Terminal application, verify that git is installed, by running:
 ```bash
@@ -65,15 +61,6 @@ are going to be filled with previous value.
 The exported csv should appear on your Desktop. Then you can delete the CNB-rates cloned file to clean up.
 
 #### OR
-<<<<<<< HEAD
-The entire repository can be downloaded as zipfile by adding '/zipball/master/' to the end of the github link in browser.
-Then the automatic execution can be run with
-```bash
-cd Downloads
-open LukasKrivka-CNB-rates-SUFFIX.zip
-cd LukasKrivka-CNB-rates-SUFFIX
-bash simple_run.sh
-=======
 The entire repository can be downloaded as zipfile by adding '/zipball/master/' to the end of the gitHub link.
 Then the automatic execution can be run with
 ```bash
@@ -81,9 +68,8 @@ cd Downloads
 open LukasKrivka-cnb-rates-20fd4a3.zip
 cd LukasKrivka-cnb-rates-20fd4a3
 bash setup.sh
->>>>>>> f34bf59 (change project structure, fix warnings and typos, update README, add automatic year detection)
 ```
-The SUFFIX in the file name will be unique - you need to change it to the name of your particular file name.
+The SUFFIX -20fd4a3 in the file name will be unique - you need to change it to the name of your particular file name.
 
 ## Final remarks:
 This script was developed mainly for my own needs. I am not necessarily planing on extending or updating functionality
