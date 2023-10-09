@@ -13,10 +13,8 @@ if __name__ == '__main__':
     # extract a single exchange rate:
     # r.get_exrate(date='2020-03-28', currency='USD')
 
-    # get the exchange rate fraction for Russian Rubl:
-    # r.get_exrate_info(currency='RUB')
-
-    # export the entire dataset to parent directory:
-    parent_dir = os.path.dirname(os.getcwd())
-    parent_dir = os.path.join(parent_dir, 'CNB-rates.csv')
-    r.to_csv(filled=True, path=parent_dir)
+    # export the entire dataset to the working directory:
+    working_dir = os.getcwd()
+    export_dir = os.path.join(working_dir, 'cnb-rates.csv')
+    r.get_data().resample('D').ffill().to_csv(export_dir)
+    print('Data exported to {}'.format(export_dir))
